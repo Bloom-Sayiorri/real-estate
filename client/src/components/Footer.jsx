@@ -1,8 +1,16 @@
 import React from 'react'
+import  { Link } from 'react-router-dom';
 
 function Footer() {
   return (
-    <div>Footer</div>
+    <footer>
+      <div>
+
+      </div>
+      <ul>
+        <Link to='/no'></Link>
+      </ul>
+    </footer>
   )
 }
 
