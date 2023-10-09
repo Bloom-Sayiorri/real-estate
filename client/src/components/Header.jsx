@@ -23,9 +23,9 @@ function Header() {
         </form>
 
         <ul className='flex gap-4 sm:gap-6'>
-          <Link to='/' className=''>Home</Link>
-          <Link to='/about' className=''>About</Link>
-          <Link to='/sign-in' className=''>SignIn</Link>
+          <Link to='/' className='hover:underline'>Home</Link>
+          <Link to='/about' className='hover:underline'>About</Link>
+          <Link to='/signup' className='hover:underline'>SignUp</Link>
         </ul>
       </div>
     </header>
