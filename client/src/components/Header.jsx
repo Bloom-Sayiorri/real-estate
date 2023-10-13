@@ -4,12 +4,12 @@ import {Link} from 'react-router-dom';
 
 function Header() {
   return (
-    <header className='shadow-md bg-slate-200'>
+    <header className='shadow-md bg-slate-300'>
       <div className='flex justify-between p-3 max-w-6xl mx-auto items-center'>
         <Link to='/'>
           <div className='font-bold text-sm sm:text-xl flex flex-wrap'>
-            <h1 className='text-slate-400'>Realtors</h1>
-            <h1 className='text-blue-900'>Estates</h1>
+            <h1 className='text-slate-500'>Realtors</h1>
+            <h1 className='text-blue-800'>Estates</h1>
           </div>
         </Link>
           
