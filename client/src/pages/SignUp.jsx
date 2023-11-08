@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 
 function SignUp() {
   const [formData, setFormData] = useState({});
+  const navigate = useNavigate();
   function handleChange(e) {
     setFormData(
       {
@@ -43,7 +44,7 @@ function SignUp() {
       </form>
       <div className="flex gap-3 my-7">
         <p className="flex">Have an account?</p>
-        <Link to={'/sign-in'}>
+        <Link to={'/signin'}>
           <span className='text-blue-700'>Sign In</span>
         </Link>
       </div>

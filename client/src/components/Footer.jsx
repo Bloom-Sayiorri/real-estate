@@ -1,18 +1,19 @@
 import React from 'react'
-import  { Link } from 'react-router-dom';
+// import  { Link } from 'react-router-dom';
 import { FaXTwitter } from 'react-icons/fa6'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
 function Footer() {
   return (
-    <footer>
+    <footer className='flex items-center '>
       <div>
-        footer    
+        <p></p>
+        <span></span>
       </div>
-      <ul>
-        <a href='https://twitter.com/'><FaXTwitter/></a>
-        <a href='https://github.com/Bloom-Sayiorri'><FaGithub/></a>
-        <a href='www.linkedin.com/in/bloom-tauta'><FaLinkedin/></a>
+      <ul className="flex gap-4 p-4 items-end justify-end float-left">
+        <a className="text-3xl" href='https://twitter.com/'><FaXTwitter/></a>
+        <a className="text-slate-600 text-3xl" href='https://github.com/Bloom-Sayiorri'><FaGithub/></a>
+        <a className="text-blue-900 text-3xl" href='www.linkedin.com/in/bloom-tauta'><FaLinkedin/></a>
       </ul>
     </footer>
   )
