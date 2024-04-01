@@ -1,10 +1,12 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom';
 
 function SignUp() {
   const [formData, setFormData] = useState({});
   const navigate = useNavigate();
-  function handleChange(e) {
+
+  const handleChange = (e) => {
     setFormData(
       {
         ...formData,
