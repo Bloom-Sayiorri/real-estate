@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin } from 'react-icons/fa'
 
 function Footer() {
   return (
-    <footer className='flex items-center justify-center'>
+    <footer className='flex items-center justify-center fixed bottom-0 w-full'>
       <div>
         <p></p>
         <span></span>

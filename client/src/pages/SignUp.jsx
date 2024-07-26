@@ -4,7 +4,7 @@ import { Link, useNavigate } from 'react-router-dom';
 
 function SignUp() {
   const [formData, setFormData] = useState({});
-  // const navigate = useNavigate();
+  const navigate = useNavigate();
 
   const handleChange = (e) => {
     setFormData(
@@ -24,6 +24,7 @@ function SignUp() {
       });
       const data = await res.json();
       setFormData(data);
+      navigate('/signin')
   };
 
   return (
